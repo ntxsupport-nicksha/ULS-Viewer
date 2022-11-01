@@ -1,0 +1,791 @@
+<FormatFile>
+  <FormatCollection>
+    <Format BackColor="Salmon" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="Or">
+            <FieldFilter Column="Level" Operation="Equals" Text="Assert" />
+          </FilterContainer>
+          <FilterContainer Operand="Or">
+            <FieldFilter Column="Level" Operation="Equals" Text="Critical" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Blue" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="Or">
+            <FieldFilter Column="Product" Operation="Equals" Text="UlsViewer" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Gold" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Level" Operation="Contains" Text="unexpected" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Purple" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Failed to create a control from assembly " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Plum" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Failed to create a custom control " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Aquamarine" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Category" Operation="Contains" Text="Authentication Authorization" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Chocolate" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="The schema for field with this id is wrong or missing." />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Coral" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Application error when access" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Brown" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="0x80004005" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Brown" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="0x8000FFFF" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Chocolate" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Closing WorkflowTelemetryMonitoredScope" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Salmon" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="cannot be found on item " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="0x80070005" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="DeepSkyBlue" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Product" Operation="Contains" Text="Nintex Forms" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Violet" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="deadlocked " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Fuchsia" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="'FeatureActivated'" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="DarkOliveGreen" ForeColor="White">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="RunWorkflow: Events successfully delivered to Instance:" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="MediumAquamarine" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Processing 1 events for workflow instance:" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Aquamarine" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="EventID" Operation="Contains" Text="eev1" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Beige" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="EventID" Operation="Contains" Text="ew8q" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup />
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Pink" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="In RunWorkflowElev(), Enqueue pending event: " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Chartreuse" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="In RunWorkflowElev(), begin processing events for instance:" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="SlateBlue" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Running timer event for workflow instance" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup />
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Black" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="task" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Time">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Time" Operation="Contains" Text="Timer Job job-workflow-failover" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Green" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Setting up workflow event receiver for instance: " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Gold" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="System.Runtime.InteropServices.COMException" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="OrangeRed" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="is not marked as authorized in the application configuration file" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Chartreuse" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="WebConfigModification: Applying web config modifications to file" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Green" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="The document lock has been released." />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Yellow" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Waiting for the document lock to be released" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Red" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="EventID" Operation="Contains" Text="frg9" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Firebrick" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Error in persisting workflow" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Time" Operation="Contains" Text="Timer Job job-workflow-failover" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Gold" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="The user does not exist or is not unique" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="DarkOrange" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Not persisting state for request due to previous errors" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Gold" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="List does not exist." />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Gold" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="DirectoryNotFoundException" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="CadetBlue" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Product" Operation="Contains" Text="Nintex Workflow" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="In workflow failover job, failover in progress work items for workflow instance" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="ThreadAbortException" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="The previous instance of the timer job 'Nintex Workflow Scheduler'," />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Coral" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Slow Query Duration:" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Fuchsia" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="UserDefinedWorkflowMaximumComplexity " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Orange" ForeColor="Black" Column="Process">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Process" Operation="Contains" Text="Nintex.Live.RelayService.exe" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Coral" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Exception when search" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Chocolate" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Error in searching user" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="BurlyWood" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Exception when resolve principal" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="DarkGoldenrod" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Error in resolving user " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="LightGoldenrodYellow" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="SQL connection time" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="SlateBlue" ForeColor="White" Column="Correlation">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Time" Operation="Contains" Text="Timer Job Nintex Workflow Scheduler" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Brown" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="System.IO.FileNotFoundException" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Brown" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Name=Timer Job job-workflow-failover" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="BlueViolet" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Nintex.Workflow.ConditionalWorkflowStartReceiver" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="BurlyWood" ForeColor="Black">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="In ItemUpdated() call on workflow event receiver for list id:" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Orange" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Calling RouteWorkflowEvent() on list" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Time" Operation="Contains" Text="Timer Job job-workflow-failover" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Tomato" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Failed to find the content type schema" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Red" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Pausing timer job" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="SeaGreen" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Timer Job job-timer-recycle" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Brown" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Videntityinfo::isFreshToken reported failure." />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Plum" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Some lookup fields were omitted from the query results because the list exceeds the lookup column threshold" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Firebrick" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Constratining the value for ResponseSizeLimits" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Tomato" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="SafeControl load exception" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Tomato" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Engine RunWorkflow: System.ArgumentException: Value does not fall within the expected range.    " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Tomato" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Sharepoint threw a handled exception " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Tomato" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="SqlException" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Chocolate" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Solution Deployment : Creating timer job for " />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="MediumTurquoise" ForeColor="Black" Column="Category">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Category" Operation="Contains" Text="Workflow Infrastructure" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Proxy response returned error:" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Access denied." />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Failed to deserialize permission" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Tomato" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Error is:" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="DeepPink" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="EventDeliveryFailedException" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Object reference not set to an instance of an object" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="OrangeRed" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="The underlying connection was closed" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Coral" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Unable to execute query" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="An error occured while trying to complete a running timer job" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Error when reading" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Crimson" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="In workflow failover job" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="ForestGreen" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Entering monitored scope (Timer Job job-workflow)" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Coral" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Throttled" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="SandyBrown" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="job-email-delivery" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="MediumVioletRed" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="ExecuteQuery" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="OrangeRed" ForeColor="White" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Unknown SPRequest error occurred" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+    <Format BackColor="Aquamarine" ForeColor="Black" Column="Message">
+      <FilterContainer>
+        <FilterGroup>
+          <FilterContainer Operand="And">
+            <FieldFilter Column="Message" Operation="Contains" Text="Name=Timer Job nwl-manager-job" />
+          </FilterContainer>
+        </FilterGroup>
+      </FilterContainer>
+    </Format>
+  </FormatCollection>
+</FormatFile>
